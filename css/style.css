@@ -1,0 +1,169 @@
+:root {
+    --mainColor: #303350;
+    --secondaryColor: #4a476d;
+    --acsentColor: #ffae00;
+
+}
+
+body {
+    background-color: var(--mainColor);
+    min-height: 900px;
+    font-family: 'ubuntu', sans-serif;
+}
+
+section h1 {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+/* Navbar */
+
+.nav-link.active {
+    color: var(--acsentColor) !important;
+    font-weight: 700;
+
+}
+
+.nav-dark {
+    background-color: var(--secondaryColor) !important;
+    z-index: 10;
+}
+
+/* End Navbar */
+
+/* Hero */
+.color-acsent {
+    color: var(--acsentColor);
+}
+
+#Hero {
+    color: #fff;
+    min-height: 100vh;
+    padding-top: 75px;
+}
+#Hero h1 {
+font-size: 2rem;
+}
+
+#Hero h2 {
+font-weight: 300;
+}
+#Hero p {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+/* CTA */
+.btn-custom1 {
+    background-color: var(--acsentColor);
+    text-align: center;
+    color: #fff;
+    min-width: 150px;
+    height: 45px;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.btn-custom1:hover {
+    box-shadow: 0 0 4.5px rgba(255, 166, 0, .8);
+}
+
+.cv {
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.social-icon svg{
+    margin-right: 0em;
+    margin-bottom: 10px;
+}
+.social-icon-footer svg {
+    margin-right: .7em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+
+
+/* End Hero*/
+
+/* About */
+hr {
+    width: 30%;
+    height: 5px;
+    color: var(--acsentColor);
+    margin: 0 auto;
+    opacity: 100%;
+}
+
+#About {
+    min-height: 300px;
+    width: 100%;
+    background-color: var(--secondaryColor);
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+}
+
+/* End About */
+
+/* Skill */
+
+#Skill{
+    min-height: 600px;
+    width: 100%;
+    color: #fff;
+}
+
+#Skill img {
+    width: 9%;
+    margin: 10px;
+}
+
+#Skill .card {
+    background-color: #414558;
+    height: 340px;
+
+}
+
+#Skill .card:hover {
+    background-color: var(--acsentColor);
+}
+
+.skill-konten{
+    margin-top: 90px;
+}
+
+/* End Skill */
+
+/* sertifikat */
+#sertifikat {
+    margin-top: -170px;
+    padding: 270px;
+    padding-bottom: 80px;
+    background-color: var(--secondaryColor);
+
+}
+
+#sertifikat p, a {
+    color: #fff !important;
+    text-decoration:none ;
+}
+
+#sertifikat img {
+    width: 60%;
+    padding: 10px;
+}
+
+/* end sertifikat */
+
+/* portofolio */
+
+#portofolio .container {
+    padding: 80px 40px;
+   
+}
+
+/* End portofolio 8/
